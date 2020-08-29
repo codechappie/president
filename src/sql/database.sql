@@ -1,0 +1,9 @@
+CREATE DATABASE node_mysql_ts;
+
+CREATE TABLE presidents(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(200) NOT NULL,
+    country VARCHAR(200) NOT NULL
+);
+
+DESCRIBE presidents;
